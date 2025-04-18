@@ -1,0 +1,1 @@
+C:\ProgramData\miniconda3\python.exe show_pic.py

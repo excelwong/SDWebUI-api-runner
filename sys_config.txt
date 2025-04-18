@@ -1,0 +1,19 @@
+{
+    "address":"http://127.0.0.1:7860",
+    "out_dir":"out",
+    "ref_dir":"ref",
+    "user_dir":"user",
+    "user_name":"安妮",
+    "checkpoint":"4Guofeng4XL_v12",
+    "sampler_index":"DPM++ SDE",
+    "scheduler":"Karras",
+    "steps":30,
+    "cfg_scale":2,
+    "seed":-1,
+    "width":1024,
+    "height":1024,
+    "hr_scale":1.8,
+    "denoising_strength": 0.33, 
+    "hr_second_pass_steps":12, 
+    "hr_upscaler": "R-ESRGAN 4x+"
+}
