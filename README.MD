@@ -33,20 +33,23 @@
 - 使用 `Run_Random.bat` 启动
 - 使用 user 目录下指定人物的人脸，按prompt_config的设置，随机生成不同场景和姿势的图片
 - 可在 sys_config.txt 中指定人名，人名支持片段适配。如果人名为空，则在user目录中每次随机选一个；如果人名为all，则轮询user目录中的所有人。
+- 参数说明：C:\ProgramData\miniconda3\python.exe run_pic.py -ran 100，即生成100张图片，可修改。不写即为1。
 
 ### 6. 参考图片生成
 - 使用 `Run_Referance.bat` 启动
-- 随机生成参考图片到 ref 目录，用于功能4的图片克隆
+- 随机生成参考图片到 ref 目录，用于功能4的图片克隆。
+- 参数说明：C:\ProgramData\miniconda3\python.exe run_pic.py -ref 10，即生成10张图片，可修改。不写即为1。
+
 
 ## 配置文件说明
 
 ### sys_config.txt
 系统配置文件，包含以下设置：
-- API地址
+- StableDiffusion WEBUI的API地址
 - 输出目录
 - 参考图片目录
 - 用户图片目录
-- 指定人名
+- 指定人名，模糊匹配。如为空， 则每次均随机选择user目录下的一人。如为“all”，则轮询user目录下的所有人。
 - 模型参数设置
 
 ### prompt_config.txt
