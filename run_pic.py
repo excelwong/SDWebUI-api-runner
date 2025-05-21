@@ -4,7 +4,7 @@ import re,random
 import gc,torch
 import sys
 
-resume_point=9999
+resume_point=99999
 
 #读取JSON格式的配置文件
 def load_config(file_path):

@@ -1,7 +1,16 @@
 {
      "套装":[
           "",
-          "simple background,white background,1girl,solo,formal_dress,cleavage"
+          "simple background,white background,1girl,solo,formal_dress,cleavage",
+          "a girl is dancing slightly, flipping hair, stroking_own_boobs",
+          "hands_behind_head, rhythmic pop dancing",
+          "hands_on_own_face with seductive smile",
+          "hands_on_own_chest, stroking_own_breasts",
+          "A girl shaking her boobs with seductive smile",
+          "女孩双手比心，带着恋爱的笑容",
+          "女孩向镜头走来",
+          "女孩双手张开，身体转了个圈",
+          "男孩女孩相拥亲吻"
      ],
      "提示词": [
           "",
@@ -236,7 +245,8 @@
           "",
           "long hair,diamond earrings,black-framed eyewear",
           "blonde hair",
-          "black glasses"
+          "black glasses",
+	  "(strapless)"
      ],
      "职业": [
           "",
@@ -682,6 +692,8 @@
           "singing",
           "sitting",
           "smoking",
+          "standing",
+          "standing in water",
           "swimming",
           "talking_on_phone",
           "walking",
@@ -836,7 +848,7 @@
      ],
     "负面提示词": [
           "",
-          "bra,blurry,out of focus,bad hands",
+          "bra,shoulder strap,blurry,out of focus,bad hands",
           "bad hands,multiple fingers,extra fingers,lowres,bad anatomy,missing fingers,worst quality,low quality,normal quality,blurry,bokeh,logo,text,sketches,watermark,banner,extra digits,monochrome,out of focus,grayscale,cropped,bad proportions",
           "nipples,bad hands,multiple fingers,extra fingers,lowres,bad anatomy,missing fingers,worst quality,low quality,normal quality,blurry,bokeh,logo,text,sketches,watermark,banner,extra digits,monochrome,out of focus,grayscale,cropped,bad proportions",
           "bra,bad hands,multiple fingers,extra fingers,lowres,bad anatomy,missing fingers,worst quality,low quality,normal quality,blurry,bokeh,logo,text,sketches,watermark,banner,extra digits,monochrome,out of focus,grayscale,cropped,bad proportions"
