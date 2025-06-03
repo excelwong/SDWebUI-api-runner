@@ -139,8 +139,13 @@ def parse_txt_to_payload(text):
     # 第一阶段：分割 prompt 和 negative_prompt（保留末尾逗号）
     parts = text.split('\n', 2)
     prompt = parts[0].strip()  # 保留原始末尾逗号
-    negative_prompt = parts[1].replace('Negative prompt: ', '', 1).strip()  # 保留原始末尾逗号
-    remaining = parts[2] if len(parts) > 2 else ''
+    if parts[1].startswith('Negative prompt: '):
+        # 处理负面提示词，去掉前缀并保留原始末尾逗号
+        negative_prompt = parts[1].replace('Negative prompt: ', '', 1).strip()  # 保留原始末尾逗号
+        remaining = parts[2] if len(parts) > 2 else ''
+    else: # 没有负面提示词
+        negative_prompt = ''
+        remaining = parts[1] if len(parts) > 1 else ''
 
     # 第二阶段：处理 ControlNet 参数（过滤不需要的字段）
     quote_split = remaining.split('"')
