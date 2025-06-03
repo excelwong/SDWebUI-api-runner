@@ -24,7 +24,7 @@ def create_pic_window():
     is_random = False
 
     # 显示图片数量
-    images_per_view = 2
+    images_per_view = 3
 
     #上一图片索引
     previous_image_index = 0

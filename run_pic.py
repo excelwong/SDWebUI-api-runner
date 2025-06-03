@@ -393,7 +393,7 @@ def generate_img(payload,output_file,clone_flag=False):
                 seed=payload.get("seed")
             pnginfo=parse_payload_to_pngInfo(payload,seed)
             try:
-                output_file = output_file.replace("-1",str(seed))
+                output_file = output_file.replace(",-1",","+str(seed))
                 image.save(output_file, pnginfo=pnginfo)
                 print(f'{output_file} is saved.')
             except Exception as e:

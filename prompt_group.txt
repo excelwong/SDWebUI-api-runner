@@ -2,7 +2,7 @@
      "套装":[
           "",
           "simple background,white background,1girl,solo,formal_dress,cleavage",
-          "a girl is dancing slightly, flipping hair, stroking_own_boobs",
+          "office_lady,looking_at_viewer,laughing, red_lips,white_business_suit,white_pants,black_turtleneck_shirt,Chanel earrings,Chanel brooch,Chanel belt",
           "hands_behind_head, rhythmic pop dancing",
           "hands_on_own_face with seductive smile",
           "hands_on_own_chest, stroking_own_breasts",
@@ -245,8 +245,8 @@
           "",
           "long hair,diamond earrings,black-framed eyewear",
           "blonde hair",
-          "black glasses",
-	  "(strapless)"
+          "silver glasses",
+	  "Chanel brooch,Chanel earrings,Chanel belt"
      ],
      "职业": [
           "",
